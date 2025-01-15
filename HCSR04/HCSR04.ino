@@ -13,10 +13,10 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 const int trig = 17;
 const int echo = 16;
-const char* ssid = "DACN";
-const char* password = "12345678";
-const char* mqttServer = "mqtt.fuvitech.vn";
-const int mqttPort = 2883;
+const char* ssid = "";
+const char* password = "";
+const char* mqttServer = "";
+const int mqttPort =;
 const char* publishTopic = "truong/mucnuoc"; // topic nhận giữ liệu mqtt
 const char* subscribeTopic1 = "truong/mucnuocgioihan"; // topic lấy giữ liệu
 const char* subscribeTopic2 = "truong/Chedo"; // topic lấy giữ liệu
